@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2976B442D0CA62D00EB8661 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2976B432D0CA62D00EB8661 /* DetailViewController.swift */; };
+		B2976B462D0CC11500EB8661 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2976B452D0CC11500EB8661 /* NetworkManager.swift */; };
 		B2DD8D0A2D0B554900B91B8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD8D092D0B554900B91B8D /* AppDelegate.swift */; };
 		B2DD8D0C2D0B554900B91B8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD8D0B2D0B554900B91B8D /* SceneDelegate.swift */; };
 		B2DD8D0E2D0B554900B91B8D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD8D0D2D0B554900B91B8D /* MainViewController.swift */; };
@@ -18,7 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B2DD8D062D0B554900B91B8D /* Horoscopoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscopoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2976B432D0CA62D00EB8661 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B2976B452D0CC11500EB8661 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B2DD8D062D0B554900B91B8D /* Horoscopo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscopo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DD8D092D0B554900B91B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2DD8D0B2D0B554900B91B8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2DD8D0D2D0B554900B91B8D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +56,7 @@
 		B2DD8D072D0B554900B91B8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2DD8D062D0B554900B91B8D /* Horoscopoc.app */,
+				B2DD8D062D0B554900B91B8D /* Horoscopo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +73,8 @@
 				B2DD8D172D0B554A00B91B8D /* Info.plist */,
 				B2DD8D1D2D0B57E500B91B8D /* Horscope.swift */,
 				B2DD8D1F2D0B5CA800B91B8D /* HoroscopeViewCell.swift */,
+				B2976B432D0CA62D00EB8661 /* DetailViewController.swift */,
+				B2976B452D0CC11500EB8661 /* NetworkManager.swift */,
 			);
 			path = Horoscopoc;
 			sourceTree = "<group>";
@@ -76,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2DD8D052D0B554900B91B8D /* Horoscopoc */ = {
+		B2DD8D052D0B554900B91B8D /* Horoscopo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2DD8D1A2D0B554A00B91B8D /* Build configuration list for PBXNativeTarget "Horoscopoc" */;
+			buildConfigurationList = B2DD8D1A2D0B554A00B91B8D /* Build configuration list for PBXNativeTarget "Horoscopo" */;
 			buildPhases = (
 				B2DD8D022D0B554900B91B8D /* Sources */,
 				B2DD8D032D0B554900B91B8D /* Frameworks */,
@@ -88,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = Horoscopoc;
+			name = Horoscopo;
 			productName = Horoscopoc;
-			productReference = B2DD8D062D0B554900B91B8D /* Horoscopoc.app */;
+			productReference = B2DD8D062D0B554900B91B8D /* Horoscopo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B2DD8D012D0B554900B91B8D /* Build configuration list for PBXProject "Horoscopoc" */;
+			buildConfigurationList = B2DD8D012D0B554900B91B8D /* Build configuration list for PBXProject "Horoscopo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2DD8D052D0B554900B91B8D /* Horoscopoc */,
+				B2DD8D052D0B554900B91B8D /* Horoscopo */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +153,8 @@
 				B2DD8D202D0B5CA800B91B8D /* HoroscopeViewCell.swift in Sources */,
 				B2DD8D1E2D0B57E500B91B8D /* Horscope.swift in Sources */,
 				B2DD8D0E2D0B554900B91B8D /* MainViewController.swift in Sources */,
+				B2976B462D0CC11500EB8661 /* NetworkManager.swift in Sources */,
+				B2976B442D0CA62D00EB8661 /* DetailViewController.swift in Sources */,
 				B2DD8D0A2D0B554900B91B8D /* AppDelegate.swift in Sources */,
 				B2DD8D0C2D0B554900B91B8D /* SceneDelegate.swift in Sources */,
 			);
@@ -350,7 +358,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2DD8D012D0B554900B91B8D /* Build configuration list for PBXProject "Horoscopoc" */ = {
+		B2DD8D012D0B554900B91B8D /* Build configuration list for PBXProject "Horoscopo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2DD8D182D0B554A00B91B8D /* Debug */,
@@ -359,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2DD8D1A2D0B554A00B91B8D /* Build configuration list for PBXNativeTarget "Horoscopoc" */ = {
+		B2DD8D1A2D0B554A00B91B8D /* Build configuration list for PBXNativeTarget "Horoscopo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2DD8D1B2D0B554A00B91B8D /* Debug */,

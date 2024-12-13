@@ -32,5 +32,4 @@ class HoroscopeViewCell: UITableViewCell {
         iconImageView.image = horoscope.icon
         
     }
-
 }
